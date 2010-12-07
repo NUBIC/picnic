@@ -1,8 +1,10 @@
 # -*- encoding: utf-8 -*-
 
+require File.expand_path('lib/picnic/version', File.dirname(__FILE__)
+
 Gem::Specification.new do |s|
   s.name = %q{picnic}
-  s.version = '0.8.1.20100201'
+  s.version = Picnic::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Zukowski"]
